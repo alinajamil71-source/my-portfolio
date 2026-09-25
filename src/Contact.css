@@ -1,0 +1,83 @@
+/* src/Contact.css */
+.contact-section {
+  padding: 5rem 10%;
+  background-color: #0b1120;
+}
+
+.contact-container {
+  max-width: 900px;
+  margin: 0 auto;
+  text-align: center;
+}
+
+.contact-subtitle {
+  color: #94a3b8;
+  font-size: 1.1rem;
+  margin-bottom: 3rem;
+  line-height: 1.6;
+}
+
+.contact-cards {
+  display: flex;
+  justify-content: center;
+  gap: 1.5rem;
+  flex-wrap: wrap;
+}
+
+.contact-card {
+  background-color: #1e293b;
+  border: 1px solid #334155;
+  border-radius: 12px;
+  padding: 2rem 1.5rem;
+  flex: 1;
+  min-width: 220px;
+  max-width: 260px;
+  text-decoration: none;
+  transition: transform 0.25s ease, border-color 0.25s ease, box-shadow 0.25s ease;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.contact-card:hover {
+  transform: translateY(-6px);
+  border-color: #38bdf8;
+  box-shadow: 0 10px 25px rgba(56, 189, 248, 0.15);
+}
+
+.contact-icon-wrapper {
+  width: 50px;
+  height: 50px;
+  border-radius: 50%;
+  background-color: #0f172a;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-bottom: 1.2rem;
+  border: 1px solid #334155;
+  transition: border-color 0.25s ease, background-color 0.25s ease;
+}
+
+.contact-card:hover .contact-icon-wrapper {
+  border-color: #38bdf8;
+  background-color: #1e293b;
+}
+
+.contact-svg {
+  width: 24px;
+  height: 24px;
+  color: #38bdf8;
+  transition: color 0.25s ease;
+}
+
+.contact-card h3 {
+  color: #f8fafc;
+  font-size: 1.25rem;
+  margin-bottom: 0.4rem;
+}
+
+.contact-card p {
+  color: #94a3b8;
+  font-size: 0.9rem;
+  font-weight: 500;
+}
